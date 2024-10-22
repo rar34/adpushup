@@ -27,7 +27,7 @@ const Banner = () => {
 
 
     return (
-        <div className="bg-gradient-to-t from-[#FF4854] p-4 rounded-lg text-white to-[#F3295B]">
+        <div className="bg-gradient-to-t from-[#FF4854] to-[#F3295B] p-4 rounded-lg text-white">
             {/* logo */}
             <div className="container mx-auto p-2">
                 <h2 className="text-5xl font-bold py-10 italic text-white">Adpushup</h2>
