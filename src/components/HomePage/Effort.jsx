@@ -6,7 +6,7 @@ const Effort = () => {
             <div className="container mx-auto py-6 md:py-10">
                 <div className="lg:w-[75%]">
                     <div className='flex flex-col lg:flex-row justify-between items-center'>
-                        <h2 className="text-5xl"><span className="font-semibold">We make earning big on ads seem effortless.</span> <span>Just like you make growing big on publishing seem effortless.</span> </h2>
+                        <h2 className="text-3xl md:text-5xl"><span className="font-semibold">We make earning big on ads seem effortless.</span> <span>Just like you make growing big on publishing seem effortless.</span> </h2>
                         <img className='h-[450px]' src={image} alt="" />
                     </div>
                 </div>

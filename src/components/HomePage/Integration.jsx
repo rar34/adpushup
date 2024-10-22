@@ -22,7 +22,7 @@ const Integration = () => {
     return (
         <div>
             <div className="container mx-auto flex p-2">
-                <div className="lg:w-2/3">
+                <div className="w-full lg:w-2/3">
                     <h2 className="text-2xl font-medium my-10 text-gray-700">AdPushup Integrates with Your Current Ad Stack</h2>
                     <div className="my-24">
                         <div ref={sliderRef} className="keen-slider items-center max-w-2xl rounded-md bg-white p-5">
