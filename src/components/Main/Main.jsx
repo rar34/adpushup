@@ -2,7 +2,7 @@ import HomePage from "../HomePage/HomePage";
 
 const Main = () => {
     return (
-        <div>
+        <div className="font-roboto">
             <HomePage />
         </div>
     );
