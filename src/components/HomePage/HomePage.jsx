@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import DemoSetup from "./DemoSetup";
 import Effort from "./Effort";
 import Feature from "./Feature";
 import Footer from "./Footer";
@@ -12,6 +13,9 @@ const HomePage = () => {
         <div>
             <Banner />
             <Membership />
+            <div>
+                <DemoSetup />
+            </div>
             <Feature />
             <Partnership />
             <Publishers />
