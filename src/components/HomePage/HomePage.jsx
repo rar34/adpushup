@@ -9,11 +9,12 @@ import Partnership from "./Partnership";
 import Publishers from "./Publishers";
 
 const HomePage = () => {
+    
     return (
         <div className="relative">
             <Banner />
             <Membership />
-            <div className="static lg:sticky top-0 bottom-4 right-4 lg:pr-20 z-50 flex justify-end">
+            <div className="lg:fixed top-4 right-4 z-50 lg:pr-20">
                 <DemoSetup />
             </div>
             <Feature />
