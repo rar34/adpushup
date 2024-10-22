@@ -27,16 +27,16 @@ const Banner = () => {
 
 
     return (
-        <div className="bg-primary">
+        <div className="bg-gradient-to-t from-[#FF4854] p-4 rounded-lg text-white to-[#F3295B]">
             {/* logo */}
             <div className="container mx-auto p-2">
                 <h2 className="text-5xl font-bold py-10 italic text-white">Adpushup</h2>
                 <div className="">
                     <h2 className="text-5xl space-y-3 font-bold text-white max-w-1/2">Grow your ad revenue <br /> by more than 40% with <br /> Google's Premier <br /> Certified Publishing <br /> Partner</h2>
                     <div className="space-y-2 py-6">
-                        <p className="flex items-center gap-2"><FaCheck className="text-2xl bg-green-600 text-white" /><span className="text-2xl text-white">Exclusive access to direct deals.</span></p>
-                        <p className="flex items-center gap-2"><FaCheck className="text-2xl bg-green-600 text-white" /><span className="text-2xl text-white">Increased competition for your ad inventory.</span></p>
-                        <p className="flex items-center gap-2"><FaCheck className="text-2xl bg-green-600 text-white" /><span className="text-2xl text-white">Ad fraud detection with Google policy compliance.</span></p>
+                        <p className="flex items-center gap-2"><span className="p-1 rounded-md bg-green-600"><FaCheck className="text-xl  text-white" /></span><span className="text-2xl text-white">Exclusive access to direct deals.</span></p>
+                        <p className="flex items-center gap-2"><span className="p-1 rounded-md bg-green-600"><FaCheck className="text-xl  text-white" /></span><span className="text-2xl text-white">Increased competition for your ad inventory.</span></p>
+                        <p className="flex items-center gap-2"><span className="p-1 rounded-md bg-green-600"><FaCheck className="text-xl  text-white" /></span><span className="text-2xl text-white">Ad fraud detection with Google policy compliance.</span></p>
                     </div>
                     {/* slider for banner */}
                     <div className="pt-14 pb-24">

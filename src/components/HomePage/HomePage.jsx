@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import Feature from "./Feature";
 import Membership from "./Membership";
 import Partnership from "./Partnership";
+import Publishers from "./Publishers";
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Membership />
             <Feature />
             <Partnership />
+            <Publishers />
         </div>
     );
 };
