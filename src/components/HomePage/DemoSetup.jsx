@@ -1,5 +1,11 @@
+import { useState } from 'react';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+
 
 const DemoSetup = () => {
+    const [phone, setPhone] = useState('');
+
     return (
         <div className="p-2">
             <h2 className="text-3xl md:text-5xl text-center font-semibold text-primary">Setup a Demo</h2>
@@ -17,6 +23,23 @@ const DemoSetup = () => {
                             <span className="label-text text-xl text-gray-700">Work Email<span className="text-lg text-primary">*</span></span>
                         </label>
                         <input type="email" className="input input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-xl text-gray-700">Phone<span className="text-lg text-primary">*</span></span>
+                        </label>
+                        <div>
+                            <PhoneInput
+                                country={'us'} // Default country code
+                                value={phone}
+                                onChange={setPhone}
+                                inputProps={{
+                                    name: 'phone',
+                                    required: true,
+                                    autoFocus: true,
+                                }}
+                            />
+                        </div>
                     </div>
                     <div className="form-control">
                         <label className="label">
@@ -39,7 +62,7 @@ const DemoSetup = () => {
                     </div>
 
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Login</button>
+                        <button className="btn bg-primary text-white uppercase text-xl">Get A Free Demo</button>
                     </div>
                 </form>
             </div>
