@@ -8,9 +8,9 @@ const DemoSetup = () => {
 
     return (
         <div className="p-2">
-            <h2 className="text-3xl md:text-5xl text-center font-semibold text-primary">Setup a Demo</h2>
-            <p className="text-center text-xl text-gray-700 font-medium my-4">Free 30 Min Website Monetization Consulting Included</p>
-            <div className="max-w-xl mx-auto shadow-xl rounded-lg my-10">
+            <div className="max-w-xl mx-auto shadow-lg shadow-secondary rounded-lg my-10 bg-white">
+                <h2 className="text-3xl px-4 md:text-5xl text-center pt-6 font-semibold text-primary">Setup a Demo</h2>
+                <p className="text-center px-4 text-xl text-gray-700 font-medium my-4">Free 30 Min Website Monetization Consulting Included</p>
                 <form className="card-body">
                     <div className="form-control">
                         <label className="label">

@@ -10,10 +10,10 @@ import Publishers from "./Publishers";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="relative">
             <Banner />
             <Membership />
-            <div>
+            <div className="static lg:sticky top-0 bottom-4 right-4 lg:pr-20 z-50 flex justify-end">
                 <DemoSetup />
             </div>
             <Feature />
