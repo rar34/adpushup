@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import Effort from "./Effort";
 import Feature from "./Feature";
+import Footer from "./Footer";
 import Integration from "./Integration";
 import Membership from "./Membership";
 import Partnership from "./Partnership";
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Publishers />
             <Integration />
             <Effort />
+            <Footer />
         </div>
     );
 };
