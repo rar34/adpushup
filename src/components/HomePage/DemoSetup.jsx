@@ -45,7 +45,7 @@ const DemoSetup = () => {
                         <label className="label">
                             <span className="label-text text-xl text-gray-700">Website<span className="text-lg text-primary">*</span></span>
                         </label>
-                        <input type="email" className="input input-bordered" required />
+                        <input type="text" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
