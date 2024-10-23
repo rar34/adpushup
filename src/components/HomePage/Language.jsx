@@ -11,7 +11,7 @@ const Language = () => {
     };
     return (
         <div>
-            <div className="relative inline-block text-left">
+            <div className="relative inline-block bg-white rounded-md shadow-md text-left">
                 <FlagsSelect
                     selected={selectedCountry}
                     onSelect={handleCountryChange}
